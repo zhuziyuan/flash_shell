@@ -12,7 +12,7 @@ Python 2.7.5
 ```
 # git clone https://github.com/ackfin/flash_shell.git
 
-# cd command
+# cd flash_shell
 
 # pip install -r requirements.txt
 
