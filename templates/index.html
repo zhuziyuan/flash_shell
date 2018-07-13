@@ -1,0 +1,25 @@
+<div>
+    <div >
+        <h1>执行命令</h1>
+        <form id="command_form" method="POST" action="/">
+            <div>
+                <input name="cmd" type="text" placeholder="命令" value="{{ cmd }}">
+                <span>@</span>
+                <input name="ip" type="text"placeholder="IP" value="{{ ip }}">
+                <span>
+                    <input name="submit"type="submit" value="执行" />
+                </span>
+            </div>
+        </form>
+    </div>
+    <div id="result">
+        <h3>命令结果</h3>
+        <textarea rows="20" cols="100">
+            {% if result %}
+                {{ result }}
+            {% endif %}
+        </textarea>
+    </div>
+</div>
+
+
